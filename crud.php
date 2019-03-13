@@ -7,11 +7,10 @@ require_once $_SERVER["DOCUMENT_ROOT"]."/crudPadrao/class/DAO/CategoriaDAO.php";
 $filmesDAO    = new Filmes();
 $categoriaDAO = new Categoria();
 
-if($_POST['acao'] == "cadastrar")
+if(isset($_POST['acao']) == "cadastrar")
 {
     $query = "INSERT ";
 }
-
 
 
 // $buscaFilme = $filmesDAO->buscaFilme();

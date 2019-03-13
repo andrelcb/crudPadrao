@@ -16,7 +16,7 @@ $dadosTemplate = [];
 include_once $_SERVER['DOCUMENT_ROOT']."/crudPadrao/crud.php";
 
 //seta dados para renderizar index.twig
-$dadosTemplate['titulo']      = "Cadastro de (seu nome)";
+$dadosTemplate['titulo']      = "Cadastro de Filmes";
 $dadosTemplate['caminhoRaiz'] = "/crudPadrao";
 $dadosTemplate['microtime']   = microtime();
 
